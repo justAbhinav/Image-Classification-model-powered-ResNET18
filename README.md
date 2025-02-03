@@ -1,8 +1,9 @@
-# DL Assignment Image Classification with ResNet-18
+# Image Classification with ResNet-18
 
 This project aims to build an image classification model leveraging the ResNet-18 architecture. The model is trained and validated using a dataset consisting of images of monkeys, which are categorized into multiple classes. The following steps outline the core components of the project:
 
 ## Objectives
+
 - Achieve high classification accuracy using the ResNet-18 model.
 - Ensure robust data processing, augmentation, and model evaluation throughout the workflow.
 
@@ -25,12 +26,14 @@ This project aims to build an image classification model leveraging the ResNet-1
 8. **Loading and Saving Models**: The final best model is loaded from the saved checkpoint and stored for future inference or deployment.
 
 ## Outcomes
+
 - **Model Performance**: The ResNet-18 model was able to achieve high accuracy on the test dataset, demonstrating its effectiveness in classifying images into their respective categories.
 - **Training Process**: The model was trained using mini-batch gradient descent, with careful monitoring of the loss and accuracy to ensure consistent improvements.
 - **Checkpointing**: We utilized checkpointing to save the best performing model based on validation accuracy, ensuring that the highest-performing model was used for final evaluation.
 - **Final Model**: The best model was saved and is now ready for deployment or further fine-tuning with different datasets or architectures.
 
 ## Future Work
+
 - Experiment with deeper models such as ResNet-50 or ResNet-101.
 - Apply more advanced data augmentation techniques.
 - Fine-tune the learning rate and other hyperparameters to optimize performance further.
